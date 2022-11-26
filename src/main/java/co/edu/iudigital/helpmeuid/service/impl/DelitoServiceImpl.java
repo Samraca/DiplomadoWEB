@@ -29,7 +29,6 @@ public class DelitoServiceImpl implements IDelitoService {
             DelitoDTO delitoDTO = new
             delitoDTOS.add()
         });
-        delitos.stream().map
 
         return delitoDTOS;
     }
