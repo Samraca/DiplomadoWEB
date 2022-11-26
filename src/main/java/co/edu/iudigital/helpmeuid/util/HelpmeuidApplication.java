@@ -1,4 +1,4 @@
-package co.edu.iudigital.helpmeuid;
+package co.edu.iudigital.helpmeuid.util;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package co.edu.iudigital.helpmeuid.controller;
+package co.edu.iudigital.helpmeuid.util;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
