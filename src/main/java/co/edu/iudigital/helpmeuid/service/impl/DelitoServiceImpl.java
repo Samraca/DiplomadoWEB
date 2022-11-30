@@ -24,7 +24,6 @@ public class DelitoServiceImpl implements IDelitoService {
     @Override
     public List<DelitoDTO> findAll() {
         List<Delito> delitos = delitoRepository.findAll();
-        // TODO: Refactoring a un mapper en paquete util
         return delitos.stream().map(d ->
                 DelitoDTO.builder()
                         .id(d.getId())

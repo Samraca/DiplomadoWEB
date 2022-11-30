@@ -18,6 +18,7 @@ public class UsuarioServiceImpl implements IUsuarioService {
 
     @Autowired
     public UsuarioServiceImpl(IUsuarioRepository usuarioRepository){
+
         this.usuarioRepository = usuarioRepository;
     }
 
@@ -25,7 +26,6 @@ public class UsuarioServiceImpl implements IUsuarioService {
     @Override
     public List<UsuarioDTO> findAll() {
         List<Usuario> usuarios = (List<Usuario>) usuarioRepository.findAll();
-        // TODO: Refactoring a un mapper en paquete util
         return usuarios.stream().map(u ->
                 UsuarioDTO.builder()
                         .id(u.getId())

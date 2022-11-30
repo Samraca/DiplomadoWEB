@@ -7,7 +7,7 @@ import java.util.List;
 public interface ICasoService {
 
     //Consultar todos los casos
-    List<CasoDTO> findall(); //TODO: Lanzar excepciones personalizadas
+    List<CasoDTO> findAll(); //TODO: Lanzar excepciones personalizadas
 
     //Crear un caso
     CasoDTO save(CasoDTO casoDTO); //TODO: Lanzar excepciones personalizadas
