@@ -6,16 +6,15 @@ import java.util.List;
 
 public interface IDelitoService {
 
-    //Listar todos los delitos
-    List<DelitoDTO> findAll(); //TODO: Lanzar excepciones personalizadas
+    // listar todos los delitos
+    public List<DelitoDTO> findAll();//TODO: Lanzar Excepcion personalizadas
 
-    //listar un delito por id
-    DelitoDTO findById(Long id); //TODO: Lanzar excepciones personalizadas
+    // listar un delito por ID
+    public DelitoDTO findById(Long id);//TODO: Lanzar Excepcion personalizadas
 
     // guardar un delito
-    DelitoDTO save(DelitoDTO delitoDTO); //TODO: Lanzar excepciones personalizadas
+    public DelitoDTO save(DelitoDTO delitoDTO);//TODO: Lanzar Excepcion personalizadas
 
-    //borrar un delito por id
-    void delete(Long id); //TODO: Lanzar excepciones personalizadas
-
+    // borrar un delito por ID
+    public void delete(Long id);//TODO: Lanzar Excepcion personalizadas
 }
